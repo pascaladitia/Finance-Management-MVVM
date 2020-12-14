@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_home"
+    app:startDestination="@id/homeFragment">
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.pascal.simplefinanceapp.view.home.fragment.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_loginActivity"
+            app:destination="@id/loginActivity"
+            app:popEnterAnim="@anim/slide_out_left"
+            app:popExitAnim="@anim/slide_in_right"
+            app:enterAnim="@anim/slide_out_right"
+            app:exitAnim="@anim/slide_in_left"/>
+    </fragment>
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.pascal.simplefinanceapp.view.home.fragment.AboutFragment"
+        android:label="fragment_about"
+        tools:layout="@layout/fragment_about" />
+    <activity
+        android:id="@+id/loginActivity"
+        android:name="com.pascal.simplefinanceapp.view.login.LoginActivity"
+        android:label="activity_login"
+        tools:layout="@layout/activity_login" />
+    <fragment
+        android:id="@+id/expenceFragment"
+        android:name="com.pascal.simplefinanceapp.view.home.fragment.ExpencesFragment"
+        android:label="fragment_expences"
+        tools:layout="@layout/fragment_expences" >
+        <action
+            android:id="@+id/action_expencesFragment_to_inputExpenceActivity"
+            app:destination="@id/inputExpenceActivity" />
+        <action
+            android:id="@+id/action_expenceFragment_to_categoryExpenceActivity"
+            app:destination="@id/categoryExpenceActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/incomeFragment"
+        android:name="com.pascal.simplefinanceapp.view.home.fragment.IncomeFragment"
+        android:label="fragment_income"
+        tools:layout="@layout/fragment_income" >
+        <action
+            android:id="@+id/action_incomeFragment_to_inputIncomeActivity"
+            app:destination="@id/inputIncomeActivity" />
+        <action
+            android:id="@+id/action_incomeFragment_to_categoryIncomeActivity"
+            app:destination="@id/categoryIncomeActivity" />
+    </fragment>
+    <activity
+        android:id="@+id/inputExpenceActivity"
+        android:name="com.pascal.simplefinanceapp.view.home.InputExpenceActivity"
+        android:label="activity_input_expence"
+        tools:layout="@layout/activity_input_expence" />
+    <activity
+        android:id="@+id/inputIncomeActivity"
+        android:name="com.pascal.simplefinanceapp.view.home.InputIncomeActivity"
+        android:label="activity_input_income"
+        tools:layout="@layout/activity_input_income" />
+    <activity
+        android:id="@+id/categoryIncomeActivity"
+        android:name="com.pascal.simplefinanceapp.view.home.CategoryIncomeActivity"
+        android:label="activity_income_category"
+        tools:layout="@layout/activity_income_category" />
+    <activity
+        android:id="@+id/categoryExpenceActivity"
+        android:name="com.pascal.simplefinanceapp.view.home.expence.CategoryExpenceActivity"
+        android:label="activity_category_expence"
+        tools:layout="@layout/activity_category_expence" />
+    <fragment
+        android:id="@+id/resultFragment"
+        android:name="com.pascal.simplefinanceapp.view.home.fragment.ResultFragment"
+        android:label="fragment_result"
+        tools:layout="@layout/fragment_result" />
+</navigation>
