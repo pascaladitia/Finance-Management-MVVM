@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Simple Finance App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="finance">Finance</string>
+    <string name="about">About</string>
+    <string name="expence">Expence</string>
+    <string name="login_here">Login Here..</string>
+    <string name="login">Login</string>
+    <string name="register_here">Register here..</string>
+    <string name="cange_language">Change Language</string>
+    <string name="register">Register</string>
+    <string name="cancel">Cancel</string>
+    <string name="logout">Logout</string>
+    <string name="deskripsi">Financial Management is all activities or activities of a company related to how to obtain working capital funding, use or allocate funds, and manage assets owned to achieve the companys main goals.</string>
+    <string name="created_by_pascal_aditia_muclis">Created by Pascal Aditia Muclis</string>
+    <string name="name">Name</string>
+    <string name="input_here">Input Here..</string>
+    <string name="save">Save</string>
+    <string name="back">Back</string>
+    <string name="yes">Yes</string>
+    <string name="yakin">Are you sure?</string>
+    <string name="titleDelete">Delete Data</string>
+    <string name="titleLogout">Logout</string>
+    <string name="welcome">Welcome</string>
+    <string name="money">Money</string>
+    <string name="date">Date : yy-mm-dd</string>
+    <string name="list_of_income">List of Income</string>
+    <string name="list_of_expence">List of Expence</string>
+    <string name="income">Income</string>
+    <string name="result_of_finance">Result of Finance</string>
+    <string name="choose_category">Choose Category?</string>
+    <string name="gaji">Gaji</string>
+    <string name="hasil_sewa">Hasil Sewa</string>
+    <string name="bunga_hutang">Bunga Hutang</string>
+    <string name="bonus">Bonus</string>
+    <string name="category">Category ex: 1</string>
+    <string name="result">Result</string>
+</resources>

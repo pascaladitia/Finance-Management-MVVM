@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Simple Finance App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Beranda</string>
+    <string name="finance">Finansial</string>
+    <string name="about">Tentang</string>
+    <string name="expence">Pengeluaran</string>
+    <string name="login_here">Masuk Disini..</string>
+    <string name="login">Masuk</string>
+    <string name="register_here">Daftar Disini..</string>
+    <string name="cange_language">Ganti Bahasa</string>
+    <string name="register">Daftar</string>
+    <string name="cancel">Batal</string>
+    <string name="logout">Keluar</string>
+    <string name="deskripsi">Manajemen Keuangan adalah segala aktivitas atau aktivitas perusahaan yang berhubungan dengan cara memperoleh dana modal kerja, menggunakan atau mengalokasikan dana, dan mengelola aset yang dimiliki untuk mencapai tujuan utama perusahaan.</string>
+    <string name="created_by_pascal_aditia_muclis">Dibuat oleh Pascal Aditia Muclis</string>
+    <string name="name">Nama</string>
+    <string name="input_here">Input Disini..</string>
+    <string name="save">Simpan</string>
+    <string name="back">Kembali</string>
+    <string name="yes">Ya</string>
+    <string name="yakin">Apakah Anda yajin?</string>
+    <string name="titleDelete">Hapus Data</string>
+    <string name="titleLogout">Keluar</string>
+    <string name="welcome">Selamat Datang</string>
+    <string name="money">Uang</string>
+    <string name="date">Tanggal : yy-mm-dd</string>
+    <string name="list_of_income">Daftar Pendapatan</string>
+    <string name="list_of_expence">Daftar Pengeluaran</string>
+    <string name="income">Pendapatan</string>
+    <string name="result_of_finance">Hasil Finansial</string>
+    <string name="choose_category">Pilih Kategori?</string>
+    <string name="gaji">Gaji</string>
+    <string name="hasil_sewa">Hasil Sewa</string>
+    <string name="bunga_hutang">Bunga Hutang</string>
+    <string name="bonus">Bonus</string>
+    <string name="category">Category ex: 1</string>
+    <string name="result">Hasil</string>
+</resources>
